@@ -1,0 +1,55 @@
+backend:
+    name: git-gateway
+  # name: github
+  # repo: Alesja1991/studio-alessi
+
+# when using the default proxy server port
+local_backend: true
+
+media_folder: content/assets
+public_folder: ../assets
+
+collections:
+  - name: settings
+    label: Asetukset
+    files:
+      - label: Asetukset
+        name: asetukset
+        file: content/settings/settings.md
+        fields:
+          - label: Nettisivun nimi
+            name: sitename
+            widget: string
+          - label: Osoitte
+            name: address
+            widget: string
+          - label: Osoitte 2
+            name: address2
+            widget: string
+          - label: Puhelin
+            name: phone
+            widget: string
+          - label: Aikataulu
+            name: hours
+            widget: string
+          - label: Instagram
+            name: instagram
+            required: false
+            widget: string
+          - label: Facebook
+            name: facebook
+            required: false
+            widget: string
+          - label: Twitter
+            name: twitter
+            required: false
+            widget: string
+          - label: Osoitte linkki 
+            name: googlemaplink
+            required: false
+            widget: string
+          - label: Kartta
+            name: googlemaphtml
+            required: false
+            widget: text
+          
