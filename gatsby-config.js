@@ -22,6 +22,7 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-root-import`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -87,5 +88,6 @@ module.exports = {
         icon: `content/assets/favicon.png`,
       },
     },
+    
   ],
 }

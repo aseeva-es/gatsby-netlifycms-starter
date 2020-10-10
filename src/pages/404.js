@@ -1,6 +1,4 @@
 import React from "react"
-// import { useStaticQuery, graphql } from "gatsby"
-// import SEO from "../components/seo"
 import {Link} from "gatsby"
 
 const page404 = (props) => {
@@ -9,7 +7,7 @@ const page404 = (props) => {
     <div className="page404">
 
       <div class="page404-in">
-              <Link to="/" className="btn">Kotisivu</Link>
+              <Link to="/" className="btn">Etusivu</Link>
         </div>
       </div>
    

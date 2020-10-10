@@ -23,15 +23,19 @@ collections:
           - label: Osoitte
             name: address
             widget: string
+            required: false
           - label: Osoitte 2
             name: address2
             widget: string
+            required: false
           - label: Puhelin
             name: phone
+            required: false
             widget: string
           - label: Aikataulu
             name: hours
             widget: string
+            required: false
           - label: Instagram
             name: instagram
             required: false

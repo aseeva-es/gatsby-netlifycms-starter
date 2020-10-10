@@ -6,7 +6,6 @@ const IndexPage = (props) =>  {
     return (
         
           <SEO
-            title="Home"
             keywords={[`blog`, `gatsby`, `javascript`, `react`]}
           />
     )
